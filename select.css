@@ -1,0 +1,48 @@
+body{
+ height:100%;
+ background-color:#064F7C;
+}
+
+main{
+  
+}
+
+
+.flex-container{
+  margin-top:15%;
+  height:100%;
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container>a{
+  padding:0 3%;
+}
+
+
+
+@keyframes example {
+  0%   {transform: scale(1);}
+  25%  {transform: scale(1.1);}
+  50%  {transform: scale(1);}
+  75% {transform: scale(1.1);}
+}
+
+img{
+
+}
+
+img:hover{
+  -webkit-animation-name:example;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-duration:3s;
+  //transform:scale(1.2); 
+  //animation-name:example;
+}
+
+.icon{
+
+
+}
